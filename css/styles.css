@@ -221,7 +221,6 @@ body, html{
   width:30px;
   height: 15px;
   border-radius: 0 0 15px 15px;
-  background:rgba(149,36,0,0.1);
   position: absolute;
   top: 70px;
   animation:grow 0.7s 2s 1 ease;
@@ -280,28 +279,7 @@ body, html{
   transform-origin: bottom;
 
 }
-.shadow-wrapper{
-  width: 98px;
-  height: 260px;
-  position: absolute;
-  left: -8px;
-  bottom: -84px;
-  z-index: 4;
-  overflow: hidden;
-}
-.shadow{
-  width: 98px;
-  height: 260px;
-  border-radius: 50px;
-  background: rgba(149,36,0,0.1);
-  position: absolute;
-  z-index: 4;
-  opacity: 0;
-  animation:shadow-anim 1s 2.8s 1 ease;
-  animation-fill-mode: forwards;
-  -webkit-animation:shadow-anim 1s 2.8s 1 ease;
-  -webkit-animation-fill-mode: forwards;
-}
+
 .triangle-light{
   width: 400px;
   height: 600px;
